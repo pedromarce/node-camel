@@ -1,0 +1,33 @@
+{
+  "name": "node-camel",
+  "version": "0.0.1",
+  "description": "A simple node version of Apache Camel",
+  "license": "MIT",
+  "author": "Pedro Marce Rodriguez",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "connect": "^3.4.0",
+    "crypto": "~0.0.3",
+    "csv": "^1.1.0",
+    "elasticsearch": "^11.0.1",
+    "jsrender": "^0.9.82",
+    "lodash": "~3.10.1",
+    "moment": "^2.11.0",
+    "nodemailer": "~1.8.0",
+    "parseurl": "^1.3.0",
+    "q": "^1.4.1",
+    "qs": "^6.0.1",
+    "restify": "~4.0.3",
+    "restify-oauth2": "~4.0.3",
+    "serve-static": "^1.11.1",
+    "soap": "~0.8.0",
+    "sockjs": "^0.3.15",
+    "stompit": "~0.22.0",
+    "swagger-node-restify": "~0.1.2",
+    "swagger-parser": "~3.3.0",
+    "swagger-tools": "0.6.12",
+    "tingodb": "~0.4.2",
+    "underscore": "~1.8.3",
+    "xml2js": "~0.4.15"
+  }
+}

@@ -5,6 +5,7 @@
 	"jmsPassword": "",
 	"soapStart": false,
 	"soapPort": 0,
+	"soapWSDL": "",
 	"restStart": false,
 	"restPort": 0,
 	"swaggerStart": false,

@@ -1,0 +1,55 @@
+{
+  "mappings": {
+    "promoter": {
+      "properties": {
+        "bp": {
+          "type": "long"
+        },
+        "promoterName": {
+          "type": "string"
+        }
+      }
+    },
+    "share-class": {
+      "properties": {
+        "bp": {
+          "type": "long"
+        },
+        "legalFund": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "legalFundName": {
+          "type": "string"
+        },
+        "promoter": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "promoterName": {
+          "type": "string"
+        },
+        "shareClassName": {
+          "type": "string"
+        },
+        "legal-fund": {
+          "properties": {
+            "bp": {
+              "type": "long"
+            },
+            "legalFundName": {
+              "type": "string"
+            },
+            "promoter": {
+              "type": "string",
+              "index": "not_analyzed"
+            },
+            "promoterName": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}
